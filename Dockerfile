@@ -1,5 +1,6 @@
 # Utilisez l'image de base jupyter/datascience-notebook
-FROM jupyter/datascience-notebook
+# FROM jupyter/datascience-notebook
+FROM jupyter/base-notebook
 
 # FROM python:3.8
 # WORKDIR /app
