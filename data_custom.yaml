@@ -1,0 +1,6 @@
+train: C:\Users\Windows\Downloads\Projects\Mham_Project_Scraping_Parts_1\YOLOv8_for_image_processing\data\train
+val: C:\Users\Windows\Downloads\Projects\Mham_Project_Scraping_Parts_1\YOLOv8_for_image_processing\data\val
+
+nc: 1
+
+names: ["brand"]
