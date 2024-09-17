@@ -18,11 +18,11 @@ services:
   #     - ollama_mham_project
   #   command: ["python", "./main.py"]
 
-  jupyter_mham_project1:
+  jupyter_mham_project1_yolo:
     build:
       context: .
       dockerfile: ./Dockerfile
-    container_name: jupyter-mham-project1
+    container_name: jupyter-mham-project1-yolo
     environment:
       - JUPYTER_TOKEN=99
     restart: always
